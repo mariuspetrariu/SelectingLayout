@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = "com.example.mariu.selectinglayout.MainActivity" >
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineVertical15Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        app:layout_constraintGuide_percent = "0.07" />
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineVertical30Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        app:layout_constraintGuide_percent = "0.34" />
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineVertical70Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        app:layout_constraintGuide_percent = "0.7" />
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineVertical85Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "vertical"
+        app:layout_constraintGuide_percent = "0.96" />
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineHorizontal15Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal"
+        app:layout_constraintGuide_percent = "0.15" />
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineHorizontal30Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal"
+        app:layout_constraintGuide_percent = "0.3" />
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineHorizontal70Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal"
+        app:layout_constraintGuide_percent = "0.7" />
+    
+    <android.support.constraint.Guideline
+        android:id = "@+id/guidelineHorizontal815Percent"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal"
+        app:layout_constraintGuide_percent = "0.85" />
+    
+    <Button
+        android:id = "@+id/button1"
+        android:layout_width = "0dp"
+        android:layout_height = "0dp"
+        android:text = "Button"
+        android:textAlignment = "center"
+        android:textSize = "14sp"
+        app:layout_constraintBottom_toTopOf = "@+id/guidelineHorizontal30Percent"
+        app:layout_constraintEnd_toStartOf = "@+id/guidelineVertical30Percent"
+        app:layout_constraintStart_toStartOf = "@+id/guidelineVertical15Percent"
+        app:layout_constraintTop_toTopOf = "@+id/guidelineHorizontal15Percent" />
+    
+    <Button
+        android:id = "@+id/button2"
+        android:layout_width = "0dp"
+        android:layout_height = "0dp"
+        android:text = "Button"
+        android:textSize = "14sp"
+        app:layout_constraintBottom_toTopOf = "@+id/guidelineHorizontal30Percent"
+        app:layout_constraintEnd_toStartOf = "@+id/guidelineVertical85Percent"
+        app:layout_constraintStart_toStartOf = "@+id/guidelineVertical70Percent"
+        app:layout_constraintTop_toTopOf = "@+id/guidelineHorizontal15Percent" />
+    
+    <Button
+        android:id = "@+id/button3"
+        android:layout_width = "0dp"
+        android:layout_height = "0dp"
+        android:text = "Button"
+        android:textSize = "14sp"
+        app:layout_constraintBottom_toTopOf = "@+id/guidelineHorizontal815Percent"
+        app:layout_constraintEnd_toStartOf = "@+id/guidelineVertical30Percent"
+        app:layout_constraintStart_toStartOf = "@+id/guidelineVertical15Percent"
+        app:layout_constraintTop_toTopOf = "@+id/guidelineHorizontal70Percent" />
+    
+    <Button
+        android:id = "@+id/button4"
+        android:layout_width = "0dp"
+        android:layout_height = "0dp"
+        android:text = "Button"
+        android:textSize = "14sp"
+        app:layout_constraintBottom_toTopOf = "@+id/guidelineHorizontal815Percent"
+        app:layout_constraintEnd_toStartOf = "@+id/guidelineVertical85Percent"
+        app:layout_constraintStart_toStartOf = "@+id/guidelineVertical70Percent"
+        app:layout_constraintTop_toTopOf = "@+id/guidelineHorizontal70Percent" />
+    
+    <Button
+        android:id = "@+id/buttonCenter"
+        android:layout_width = "0dp"
+        android:layout_height = "0dp"
+        android:layout_marginBottom = "8dp"
+        android:layout_marginEnd = "8dp"
+        android:layout_marginStart = "8dp"
+        android:layout_marginTop = "8dp"
+        android:text = "Button"
+        android:textSize = "30sp"
+        app:layout_constraintBottom_toTopOf = "@+id/guidelineHorizontal70Percent"
+        app:layout_constraintEnd_toStartOf = "@+id/guidelineVertical70Percent"
+        app:layout_constraintStart_toStartOf = "@+id/guidelineVertical30Percent"
+        app:layout_constraintTop_toTopOf = "@+id/guidelineHorizontal30Percent" />
+    
+    <Button
+        android:id = "@+id/button"
+        android:layout_width = "0dp"
+        android:layout_height = "0dp"
+        android:text = "sw 320"
+        android:textAlignment = "center"
+        android:textSize = "18sp"
+        android:textStyle = "bold"
+        app:layout_constraintBottom_toTopOf = "@+id/guidelineHorizontal15Percent"
+        app:layout_constraintEnd_toStartOf = "@+id/guidelineVertical70Percent"
+        app:layout_constraintStart_toStartOf = "@+id/guidelineVertical30Percent"
+        app:layout_constraintTop_toTopOf = "parent" />
+</android.support.constraint.ConstraintLayout >
